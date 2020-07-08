@@ -23,19 +23,38 @@
 #mainbody {
 
 }
-#body2 {
-    height: 100vh;
-    background-color: #1a3a6f;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-#body3 {
-    height: 91vh;
-    padding-top: 10vh;
-    margin-bottom: 10vh;
-    background-image: linear-gradient(to bottom, #5b63b7, #4a59a5, #394e93, #294481, #1a3a6f, #23305e, #25274e, #231f3e, #24172c, #1e111d, #15080f, #000000);
-}
 .modal-content {
-    background-color: #1a3a6f;
+    background-image: linear-gradient(to bottom, #000000, #23141b, #3c2035, #523056, #5f437d, #5f437d, #5f437d, #5f437d, #523056, #3c2035, #23141b, #000000);
+}
+#content1{
+    display: block;
+}
+#content2 {
+    display: none;
+}
+#content3 {
+    display: none;
+}
+#content4 {
+    display: none;
+}
+#content5 {
+    display: none;
+}
+.input-half {
+    width: 50%;
+}
+.form-control {
+    background-color: #001f4e!important;
+}
+.card {
+    border: none!important;
+}
+.card{
+    background-image: linear-gradient(to top, #5b63b7, #5c67b7, #5e6bb6, #606fb5, #6273b4, #727fba, #818bbf, #9097c5, #adb0d3, #cac9e1, #e5e4f0, #ffffff);
+}
+.fax-card {
+    height: 13rem;
+    width: 13rem;
 }
 
